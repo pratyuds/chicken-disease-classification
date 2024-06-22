@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 import logging
 
-logging.basicConfig(level=logging.INFO, format = '[%(asctime)s]:%(levelname)s:%(message)s:%(lineno)s:%(funcname)s:%(lineno)s:%(message)s:')
+logging.basicConfig(level=logging.INFO, format = '[%(asctime)s]:%(levelname)s:%(message)s:%(lineno)s:%(message)s:')
 
 
 project_name = "ChickenDiseaseCNNClassifier"
@@ -28,7 +28,7 @@ list_of_files = [
     "requirements.txt",
     "setup.py",
     "research/trails.ipynb",
-    "test.py"
+    "templates/index.html"
     ]
 
 for filepath in list_of_files:
