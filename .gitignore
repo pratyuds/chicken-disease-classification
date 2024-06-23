@@ -126,7 +126,7 @@ celerybeat.pid
 .venv
 env/
 venv/
-deep_chicken_env/
+cnn_chicken_env/
 ENV/
 env.bak/
 venv.bak/
